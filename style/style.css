@@ -55,11 +55,17 @@ body{
 .bg-black{
     background-color: #23272a;
 }
+.bg-lightpurple{
+    background-color: #8ea1e1;
+}
 .cl-white{
     color: white;
 }
 .cl-black{
     color: black;
+}
+.cl-purple{
+    color: #748bde;
 }
 .border-radius{
     border-radius: 18px;
@@ -243,6 +249,18 @@ select{
     display: inline-block;
 }
 div.column-30 > img{
-    height: 10px;
+    height: 20px;
+    vertical-align: middle;
+}
+div.column-quarters > ul{
+    list-style-type: none;
+}
+div.column-quarters > ul > li{
+    padding: 0.25rem 0;
+    color: white;
 }
 
+section.navigation div.button > button{
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border
+}
