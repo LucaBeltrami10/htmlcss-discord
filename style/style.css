@@ -25,6 +25,7 @@ body{
     justify-content: space-between;
 }
 
+
 .container{
     max-width: 1050px;
     /* width: 65 */
@@ -41,46 +42,7 @@ body{
     border: 2px dashed black;
 }
 
-.columns{
-    padding: 3rem 0;
-}
 
-.column{
-    height: 400px;
-}
-
-.column-big{
-    background-color: #1e8ffe;
-    width: 60%;
-}
-
-.column-small{
-    background-color: #febfca;
-    width: 40%;
-}
-
-.column-single{
-    background-color: #228a22;
-    width: 100%;
-    height: 700px;
-}
-
-.column-70{
-    background-color: #20b1a9 ;
-    width: 70%;
-    height: 500px;
-}
-
-.column-30{
-    background-color: #ef7f7f;
-    height: 500px;
-    width: 30%;
-}
-
-.column-quarters{
-    border: 2px dashed white;
-    width: calc(100% / 4);
-}
 
 
 .bg-white{
@@ -156,8 +118,9 @@ section.navigation div.login > span{
 
 section#jumbo{
     /* height: 300px; */
-    background-color: #00008a;
     padding: 3rem 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 div.jumbotron{
@@ -174,6 +137,75 @@ div.jumbotron > span{
     padding: 0.25rem 0.50rem 0.25rem 0.50rem;
     margin: 0 0.5rem;
 
+}
+/* main */
+.column-big img{
+    height: 100%;
+}
+div.column-small > *{
+    padding-right: 40%;
+}
+div.column-small > p{
+    padding-top: 1rem;
+}
+div.column-single  img{
+    width: 100%;
+}
+.column-single > p{
+    padding: 1rem 3rem 0 3rem;
+}
+.column-single > div:last-child{
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    background-color: #8ea1e1;
+}
+.column-single > div:nth-last-child(2){
+    height: 3rem;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+.columns{
+    padding: 3rem 0;
+}
+
+.column{
+    height: 400px;
+}
+
+.column-big{
+    background-color: #1e8ffe;
+    width: 60%;
+}
+
+.column-small{
+    background-color: #feb5c0;
+    width: 40%;
+    padding-top: 3rem;
+}
+
+.column-single{
+    width: 100%;
+    height: 850px;
+    text-align: center;
+}
+
+
+.column-70{
+    background-color: #20b1a9 ;
+    width: 70%;
+    height: 500px;
+}
+
+.column-30{
+    background-color: #ef7f7f;
+    height: 500px;
+    width: 30%;
+}
+
+.column-quarters{
+    border: 2px dashed white;
+    width: calc(100% / 4);
 }
 
 footer{
